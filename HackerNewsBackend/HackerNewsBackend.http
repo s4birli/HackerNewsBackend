@@ -1,0 +1,19 @@
+@HackerNewsBackend_HostAddress = http://localhost:5258
+
+# Endpoint: Get paginated stories
+GET {{HackerNewsBackend_HostAddress}}/api/stories/page?page=1&pageSize=10
+Accept: application/json
+
+###
+
+# Endpoint: Get new story IDs
+GET {{HackerNewsBackend_HostAddress}}/api/stories/ids
+Accept: application/json
+
+###
+
+# Endpoint: Get a single story by ID
+GET {{HackerNewsBackend_HostAddress}}/api/stories/1
+Accept: application/json
+
+###
